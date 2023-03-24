@@ -1,0 +1,195 @@
+<!--* Audio file is in about page under the paragraph 
+ * Video is in Badminton page under best selling rackets
+* first javascript is under forms in home page
+* second javascript is above paragraph in about page-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>King Sports</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+<meta name="description" content="King sports is one stop for Badminton and T.T players all over the area. We provide latest rackets on reasonable prices."/>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="images/favicon.jpeg" sizes="16x16">
+</head>
+<body>
+
+<div class="wrapper">
+  <div class="top">
+
+  <div class="logo">
+    <img src="images/logo.jpeg" alt="Simply Easy Learning" width="170px"
+    height="190px">
+</div>
+ 
+    <div class="nav">
+      <nav>
+      <ul>
+        <li><a href="King-sports.html">HOME</a></li>
+        <li><a href="badminton.html">BADMINTON</a></li>
+        <li><a href="tt.html">TABLE-TENNIS</a></li> 
+        <li><a href="Contact.html">CONTACT</a></li>
+        <li><a href="About.html">ABOUT</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+<main>
+  <div class="homeContent">
+    <div class="leftSec">
+    
+      <div class="upcomingInfo">
+        <h1>LATEST ARRIVAL</h1>
+        <br>
+        <p>
+          <b>YONEX NANORAY DYNAMIC</b><br><br>
+          Price: $119.19<br>
+          Color: Blue<br>
+          String-tension: 24<br>
+          In-stock? : Yes<br>
+          Offer: 20%off
+        </p>
+      </div>
+      <div class="upcomingImg">
+        <img src="images/P2.jpg" alt="product 1" >
+      </div>
+    </div>
+    <div class="rightSec">
+      <h1>UPCOMING PRODUCTS</h1><br>
+      <p>Yonex Astrox A12<br>
+        Yonex Nanoray 77<br>
+        Victor Z-11<br>
+        Victor D-32 (carbon)<br>
+        stiga XX<br>
+        Stiga Contra 33<br>
+        Stiga Contra 30<br>
+        Stiga pelism (latest edition)</p>
+    </div>
+  </div>
+  <h1>Some Rackets and Paddles</h1>
+  <div class="info">
+    <figure>
+    <img src="images/p5.jpg" alt="Second product" width="360" height="360">
+    <figcaption><br><b>Head Tornado Control</b><br>
+      $73.97<br>
+      Color: Sky-blue<br>
+      (Out of stock) </figcaption></figure>
+    <figure>
+    <img src="images/p12.jpg" alt="third product" width="360" height="360">
+    <figcaption><br><b> STIGA SUPREME</b><br>
+      $29.19<br>
+      weight: 82.2gm<br>
+      (6 items left)</figcaption></figure>
+    <figure>
+    <img src="images/p4.jpg" alt="fourth product" width="360" height="360">
+    <figcaption><br><b>Yonex Duora Z Strike</b><br>
+      $269.99<br>
+      Color: Mehroon<br>
+      (2items left) </figcaption></figure>
+    <figure>
+    <img src="images/p15.jpg" alt="fifth product" width="360" height="360">
+    <figcaption><br><b>STIGA TORCH TABLE</b><br>
+      $39.29<br>
+      weight: 85gm<br>
+      (fully stocked) </figcaption></figure>
+
+  </div>
+
+
+  <button onclick ="myFunction()"><b>Click me to hide/view review box</b></button>
+
+
+
+  <div id="review">
+
+    <h2>PRODUCT REVIEW</h2>
+
+
+    
+<form action="http://webdevbasics.net/scripts/demo.php" method="POST" class="review-form">
+  <div>
+    <label for="pname">product name:</label>
+    <input type="text" id="pname" name="pname" placeholder="poduct name here" required>
+  </div>
+  
+  <br>
+
+  <div>
+  <label for="fname">first name:</label>
+  <input type="text" id="fname" name="fname" placeholder="first name here" required>
+</div>
+
+<br>
+
+<div>
+  <label for="lname">last name:</label>
+  <input type="text" id="lname" name="lname" placeholder="last name here" required>
+</div>
+
+<br>
+
+<div>
+<label for="email">E-mail:</label>
+<input type="email" id="email" name="myEmail" placeholder="youremailaddress@email.com"required>
+</div>
+
+<br>
+
+<div>
+<label for="experience" >Review:</label>
+<textarea rows = "2" cols = "20" name = "description"
+  id="experience" required>
+</textarea>
+</div>
+
+<br>
+
+<div>
+  <input type="reset">
+</div>
+
+<br>
+
+<div>
+  <input type="submit">
+</div>
+</form>
+
+
+  </div>
+<script>
+  function myFunction(){
+var x = document.getElementById("review");
+if(x.style.display ==="none"){
+  x.style.display = "block";
+} else{
+  x.style.display ="none";
+}
+
+  }
+</script>
+</main>
+<footer>
+<div class="footer">
+  <div class="leftFooter">
+    <img src="images/logo.jpeg" alt="Description for image" width="200" height="200">
+  </div>
+  <div class="rightFooter">
+   <h2>Main contact and Address</h2>
+   <p><br>
+    Mob: +1(778)636-0769<br>
+    email@randeep.singh9@email.kpu.ca<br><br>
+    12666 72 Avenue,<br>
+    V3W 2M8,<br>
+    Surrey, B.C
+  </p>
+  </div>
+
+</div>
+
+
+</footer>
+</div>
+</body>
+</html>			
